@@ -1,0 +1,375 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header, footer{
+  padding: 0 1.51rem ;
+}
+
+header{
+  background-image: url(assets/bg-main-mobile.png);
+  background-size: contain;
+  background-position: right;
+}
+#equal{
+  margin: 4rem 0;
+}
+#pattern-1{
+  display: none;
+} 
+
+ header h1{
+color: #191826;
+font-family: "IBM Plex Sans";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; 
+letter-spacing: -0.02844rem;
+width:20.4375rem;
+}
+
+header p{
+color: #191826;
+font-family: "IBM Plex Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+width: 20.4375rem;
+margin:1.25rem 0 10rem ;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15rem;
+  margin: 4.25rem auto 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.app img{
+  width: 13.06075rem;
+  height: 26.875rem;
+  flex-shrink: 0;
+}
+.pattern-bg{
+  border-radius: 0.75rem;
+  background: #191826;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+
+.subcribe{
+border-radius: 0.75rem;
+background-color: #FA7453;
+padding: 3rem ;
+position: absolute;
+bottom: -105%;
+width: 100%;
+}
+
+.subcribe h1{
+color: #FCFAF9;
+font-family: "IBM Plex Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.5rem; 
+width: 18.875rem;
+}
+
+.subcribe p{
+  color: #FCFAF9;
+  font-family: "IBM Plex Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  width: 18.875rem;
+}
+.price{
+  margin: 2.2rem 0 2rem;
+}
+.price span{
+  color: #FCFAF9;
+  font-family: "IBM Plex Sans";
+  font-size: 4.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 80% */
+}
+.subcribe-btn{
+  display: flex;
+  flex-flow: column;
+}
+.subcribe-btn button{
+  border-radius: 0.75rem;
+  padding: 0.94rem 0 0.88rem;
+}
+
+.ios{
+  background-color: #191826;
+  color: #FCFAF9;
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  border: none;
+  letter-spacing: -0.01125rem;
+  padding:0 4.81rem 0 6.38rem;
+}
+
+.android{
+color: #191826;
+text-align: center;
+font-family: "IBM Plex Sans";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem; /* 177.778% */
+letter-spacing: -0.01125rem;
+border-radius: 0.75rem;
+background-color: #FCFAF9;
+border: none;
+padding: 0 3.59rem 0 3.69rem;
+margin-top: 1rem;
+}
+
+/* FOOTER */
+
+footer{
+  margin: 0 0 4rem 0;
+  padding-top: 34.375rem;
+}
+.footer_text{
+  margin-top: 2rem;
+}
+footer p{
+  color: #191826;
+  font-family: "IBM Plex Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+footer span{
+  color: #191826;
+  font-family: "IBM Plex Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem;
+}
+
+.socials{
+  display: flex;
+  width: 6.25rem;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+
+
+
+
+/* TABLET */
+ @media screen and (min-width:768px) and (max-width:1023px) {
+  #pattern-1{
+    display: block;
+    position: absolute;
+    right: -2rem;
+    top: -5rem;
+  }
+
+  header h1{
+    width: 32.5rem;
+    color: #191826;
+    font-family: "IBM Plex Sans";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: -0.04544rem;
+    margin:5.94rem 0 1.75rem;
+  } 
+
+  header p{
+    color: #191826;
+    font-family: "IBM Plex Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    width: 32.125rem;
+    padding-bottom: 6.94rem;
+  }
+
+  .pattern-bg{
+    border-radius: 0.75rem;
+    background: #191826;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: -1;
+    max-width:43.5rem;
+    height: 34.75rem;
+    margin: 0 auto;
+  }
+
+  .app{
+    display: inline-block;
+    left: 4rem;
+    top: -13rem;
+  }
+  
+  .app img{
+    width: 16.88788rem;
+    height: 34.75rem;
+
+  }
+
+  .pattern-2{
+    margin-left: 50px;
+    margin-top: -50px;
+  }
+
+  .subcribe{
+    position: absolute;
+    right: 3.62rem;
+    top:9.37rem;
+    width: 24.9375rem;
+    height: 34.125rem;
+  }
+
+  footer{
+    padding-top: 15rem;
+  }
+
+  .footer_content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_text{
+    max-width:22.875rem;;
+  }
+
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+  body{
+    background-image: url(assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  header{
+    padding-left: 10.31rem;
+  }
+
+  header h1{
+    min-width: 80%;
+    color: #191826;
+    font-family: "IBM Plex Sans";
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: -0.0625rem;
+    flex-wrap: wrap;
+  }
+  #pattern-1{
+    display: block;
+    position: absolute;
+    right:0;
+    top: -2rem;
+    width: 15%;
+  }
+
+  header p{
+    width: 51.5625rem;
+    color: #191826;
+    font-family: "IBM Plex Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    margin-top: 2.5rem;
+    padding-bottom: 7.93rem;
+  }
+
+  .pattern-bg{
+    border-radius: 0.75rem;
+    background: #191826;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: -1;
+    margin: 0 auto;
+    width: 79.38%;
+    padding-bottom: 6rem;
+
+  }
+
+  .app{
+    display: inline-block;
+    left: 7.38%;
+    top: -13rem;
+  }
+  
+  .app img{
+    width: 17.5rem;
+    height: 37.875rem;
+  }
+
+  .pattern-2{
+    margin-left: -20%;
+  }
+
+  .subcribe{
+    position: absolute;
+    right: 5.94%;
+    top:9.37rem;
+    width: 27.875rem;
+    height: 34.0625rem;
+  }
+  
+  .android:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+  }
+
+  footer{
+    padding: 15rem 10.31rem 5.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .footer_content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+    
+  }
+  .footer_text{
+    max-width:22.875rem;;
+  }
+
+
+}
